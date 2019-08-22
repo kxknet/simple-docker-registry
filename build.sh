@@ -29,7 +29,7 @@ if ! command -v htpasswd > /dev/null; then
 fi
 
 #Get Docker Registry
-docker pull registry:0.9.0
+docker pull registry:latest
 
 #Run Docker Registry container
 ./start/start-registry.sh
